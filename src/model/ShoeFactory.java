@@ -37,6 +37,14 @@ public class ShoeFactory
     {
         boolean canMake = false;
 
+        if (sheResourceCount >= 5)
+        {
+            //Shoe newShoe = new Shoe(size, brand);
+            shoeList.add(new Shoe (size, brand));
+            shoeResourceCount -= 5;
+            canMake = true;
+        }
+
         return canMake;
     }
 }

@@ -6,7 +6,7 @@ public class FactoryFrame extends JFrame
 {
     private FactoryPanel myPanel;
 
-    public FactoryFrame()
+    public FactoryFrame(FactoryController factoryApp)
     {
         myPanel = new FactoryPanel();
         setupFrame();
