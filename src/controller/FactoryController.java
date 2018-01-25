@@ -16,4 +16,12 @@ public class FactoryController
     {
         myfactory = new ShoeFactory();
     }
+
+    public FactoryFrame getAppFrame() {
+        return appFrame;
+    }
+
+    public ShoeFactory getMyFactory() {
+        return myFactory;
+    }
 }

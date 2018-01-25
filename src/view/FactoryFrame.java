@@ -15,7 +15,7 @@ public class FactoryFrame extends JFrame
     private void setupFrame()
     {
         this.setSize(400, 400);
-        this.setContentPane(myPanel);
+        this.setContentPanel(myPanel);
         this.setVisible(true);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
